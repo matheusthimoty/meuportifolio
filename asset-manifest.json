@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/meuportifolio/static/css/main.e5c87c5c.css",
-    "main.js": "/github.io/meuportifolio/static/js/main.52de7bec.js",
-    "static/media/me.png": "/github.io/meuportifolio/static/media/me.a84eb11e3de3ac240725.png",
-    "static/media/stars.png": "/github.io/meuportifolio/static/media/stars.51a0ab8d38b551d0bdc9.png",
-    "index.html": "/github.io/meuportifolio/index.html",
-    "main.e5c87c5c.css.map": "/github.io/meuportifolio/static/css/main.e5c87c5c.css.map",
-    "main.52de7bec.js.map": "/github.io/meuportifolio/static/js/main.52de7bec.js.map"
+    "main.css": "/meuportifolio/static/css/main.e5c87c5c.css",
+    "main.js": "/meuportifolio/static/js/main.8fff0564.js",
+    "static/media/me.png": "/meuportifolio/static/media/me.a84eb11e3de3ac240725.png",
+    "static/media/stars.png": "/meuportifolio/static/media/stars.51a0ab8d38b551d0bdc9.png",
+    "index.html": "/meuportifolio/index.html",
+    "main.e5c87c5c.css.map": "/meuportifolio/static/css/main.e5c87c5c.css.map",
+    "main.8fff0564.js.map": "/meuportifolio/static/js/main.8fff0564.js.map"
   },
   "entrypoints": [
     "static/css/main.e5c87c5c.css",
-    "static/js/main.52de7bec.js"
+    "static/js/main.8fff0564.js"
   ]
 }
