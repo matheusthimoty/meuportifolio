@@ -5,7 +5,6 @@ import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
-import Stats from "../components/Stats/Stats";
 import "../pages/Stars.css";
 
 import starsBackground from "../assets/stars.png";
@@ -121,7 +120,6 @@ const LandingPage = () => (
       <Projects />
       <About />
       <Contact />
-      <Stats />
     </main>
     <Footer className="text-white" />
   </div>

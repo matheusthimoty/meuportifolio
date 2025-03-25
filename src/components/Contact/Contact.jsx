@@ -1,8 +1,11 @@
-import { motion } from "framer-motion"; // Adicionando a importação
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 bg-gradient-to-b from-gray-800 to-gray-900">
+    <section
+      id="contact"
+      className="py-16 bg-gradient-to-b from-gray-800 to-gray-900"
+    >
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-semibold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent mb-12">
           Entre em Contato
@@ -18,7 +21,7 @@ const Contact = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           />
-          
+
           <motion.input
             type="email"
             placeholder="Seu Email"
@@ -28,7 +31,7 @@ const Contact = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
           />
-          
+
           <motion.textarea
             placeholder="Sua Mensagem"
             rows="5"

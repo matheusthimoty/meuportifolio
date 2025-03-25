@@ -1,11 +1,11 @@
 import { FaReact, FaJs, FaCss3 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si"; // Importando o ícone do Tailwind CSS da biblioteca "simple-icons"
+import { SiTailwindcss } from "react-icons/si";
 
 const skills = [
   { icon: FaReact, name: "React" },
   { icon: FaJs, name: "JavaScript" },
   { icon: FaCss3, name: "CSS" },
-  { icon: SiTailwindcss, name: "Tailwind CSS" }, // Usando o ícone do Tailwind CSS
+  { icon: SiTailwindcss, name: "Tailwind CSS" },
 ];
 
 const Skills = () => {
