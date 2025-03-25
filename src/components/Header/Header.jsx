@@ -7,7 +7,6 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 // Constantes para URLs das redes sociais
 const SOCIAL_LINKS = [
@@ -160,7 +159,7 @@ export default function Header() {
 
         {/* Ícones de Redes Sociais para a barra de navegação em telas grandes */}
         <div className="hidden lg:flex space-x-6 items-center">
-          <ul className="flex space-x-6 items-center" role="list">
+          <ul className="flex space-x-6 items-center">
             {SOCIAL_LINKS.map((link, index) => (
               <SocialIcon
                 key={index}
@@ -196,7 +195,7 @@ export default function Header() {
           ))}
 
           {/* Ícones de Redes Sociais para o menu hambúrguer (somente no submenu) */}
-          <ul className="flex space-x-6 items-center mt-6" role="list">
+          <ul className="flex space-x-6 items-center mt-6">
             {SOCIAL_LINKS.map((link, index) => (
               <SocialIcon
                 key={index}

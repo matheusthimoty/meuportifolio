@@ -1,6 +1,5 @@
 /* Stars.css */
 
-/* Definindo a animação para o fundo com as estrelas */
 @keyframes starAnimation {
   0% {
     background-position: 0 0;
@@ -12,6 +11,6 @@
 
 .stars {
   animation: starAnimation 60s linear infinite;
-  background-size: 200% 200%; /* Ajuste o tamanho para um movimento suave */
+  background-size: 200% 200%;
   background-position: 0 0;
 }

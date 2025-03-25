@@ -33,7 +33,7 @@ const Skills = () => {
               {/* Ícone da habilidade */}
               <div className="relative z-10">
                 <skill.icon
-                  className="text-purple-400 group-hover:text-pink-400 transition-colors duration-300 mx-auto transform group-hover:scale-125 ease-in-out duration-300"
+                  className="text-purple-400 group-hover:text-pink-400 transition-colors duration-300 mx-auto transform group-hover:scale-125 ease-in-out"
                   size={64}
                 />
 
